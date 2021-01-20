@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: radial-gradient(rgb(228, 3, 248),rgb(98, 0, 255),rgb(0, 162, 255));
+}
+table, th, td {
+    margin-top: 50px;
+  }
+.img2{
+    left: 0;
+    border-radius: 10px;
+}
+.img{
+    position: absolute;
+    border-radius: 10px;
+}
+.page_title{
+    margin-top: 30px;
+    color: rgb(0, 255, 170);
+    text-align: center;
+    font-family: cursive;
+}
+.card-cont{
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.card-front{
+    backface-visibility: hidden;
+}
+.card-back{
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.card-cont:hover{
+    transform: rotateY(180deg);
+}
+.btn-back{
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    margin-left: 20px;
+    outline: none;
+}

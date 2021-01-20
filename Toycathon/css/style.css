@@ -1,0 +1,82 @@
+.h1{
+    color: yellow;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 60px;
+}
+.btn-1{
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 200px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 0, 51);
+}
+.btn-2{
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 200px;
+    outline: none;
+    border: none;
+    background-color: cyan;
+}
+.btn-3{
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 200px;
+    outline: none;
+    border: none;
+    background-color: yellow;
+}
+.btn-4{
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 200px;
+    outline: none;
+    border: none;
+    background-color: rgb(253, 0, 198);
+}
+.btn-1:hover{
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 200px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(67, 0, 253);
+}
+.btn-2:hover{
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 200px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: yellow;
+}
+.btn-3:hover{
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 200px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(0, 253, 156);
+}
+.btn-4:hover{
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 200px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(181, 0, 253);
+}
